@@ -1,5 +1,3 @@
-dataset==1.4.5
-datasets==1.5.0
 Flask==1.1.2
 gunicorn==20.1.0
 Jinja2
@@ -7,13 +5,7 @@ joblib==1.0.1
 lightfm==1.16
 locket==0.2.1
 Mako==1.1.4
-MarkupSafe==1.1.1
 matplotlib
-mccabe==0.6.1
-mistune==0.8.4
-mkl-fft==1.3.0
-mkl-random==1.1.1
-mkl-service==2.3.0
 Pillow
 pyarrow==3.0.0
 scikit-image==0.17.2
