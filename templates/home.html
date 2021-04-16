@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div style="color:rgb(221, 162, 94) "></div>
+   <div class="shadow p-3 mb-5 bg-white rounded">
+      <h1 style="color:rgb(8, 37, 80)">Capstone 2 : Music Recommender App</h1>
+   </div>
+</div>
+
+
+   <div>
+      <h3 style="color:rgb(7, 42, 95)">Trending Music  </h3>
+   </div>
+
+    <ul class="list-group list-group-flush">
+     
+      
+      {% for key,value in rlist.iterrows() %}
+         <li class="list-group-item" style="color:rgb(65, 39, 5)">
+            Title: <strong>{{value['title']}}</strong> </br>
+            Artist: {{value['artist_name']}} </br>
+            Release: {{value['release']}}
+            Rank: {{value['Unnamed']}}
+             <p><a href="recommendBySong?songid={{value['title']}}">Play</a></p>
+         </li>
+      {% endfor %}
+
+    </ul>
+{% endblock %}

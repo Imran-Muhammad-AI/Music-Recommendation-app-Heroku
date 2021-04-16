@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  <div class="shadow p-3 mb-5 bg-white rounded">
+    <h3 style="color:rgb(0, 102, 255)">Here are some songs for YOU </h3>
+  </div>
+
+    <ul class="list-group list-group-flush">
+      {% for song in rlist %}
+        <li class="list-group-item" style="color:rgb(0, 179, 0)"><strong>{{song|capitalize}}</strong> <p><a href="recommendBySong?songid={{song}}">Play</a></p></li>
+       
+      {% endfor %}
+    </ul>
+
+{% endblock %}
