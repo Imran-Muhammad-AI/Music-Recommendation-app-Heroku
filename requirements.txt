@@ -14,5 +14,4 @@ scipy==1.5.4
 seaborn==0.11.1
 SQLAlchemy==1.4.5
 tblib 
-pandas 1.2.4
-numpy 1.20.2
+pandas
