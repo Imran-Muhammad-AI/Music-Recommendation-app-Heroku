@@ -5,13 +5,4 @@ joblib==1.0.1
 lightfm==1.16
 locket==0.2.1
 Mako==1.1.4
-matplotlib
-Pillow
-pyarrow==3.0.0
-scikit-image==0.17.2
-scikit-learn==0.24.1
-scipy==1.5.4
-seaborn==0.11.1
-SQLAlchemy==1.4.5
-tblib 
 pandas
